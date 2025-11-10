@@ -761,4 +761,4 @@ def render_content(tab):
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
-    app.run(debug=True, mode='inline', port=8050)
+    app.run(debug=False)
