@@ -681,7 +681,7 @@ def render_content(tab):
             
             html.Div(style={'display': 'grid', 'gridTemplateColumns': 'repeat(auto-fit, minmax(400px, 1fr))', 'gap': '20px', 'marginTop': '20px'}, children=[
                 html.Div(style={'background': 'linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)', 'padding': '25px', 'borderRadius': '10px', 'boxShadow': '0 2px 8px rgba(0,0,0,0.1)'}, children=[
-                    html.H4('📐 Modelo Matemático', style={'marginBottom': '15px', 'color': colors['text']}),
+                    html.H4('🔍 Modelo Matemático', style={'marginBottom': '15px', 'color': colors['text']}),
                     html.Div(style={'backgroundColor': 'white', 'padding': '20px', 'borderRadius': '8px'}, children=[
                         html.P('Función Objetivo:', style={'fontWeight': 'bold', 'color': colors['secondary'], 'marginBottom': '10px'}),
                         html.P('max Z = 849x₁ + 319x₂ + 5200x₃ + 15500x₄', style={'fontFamily': 'monospace', 'fontSize': '12px', 'marginBottom': '15px'}),
@@ -729,7 +729,7 @@ def render_content(tab):
             ]),
             
             html.Div(style={'background': 'linear-gradient(to right, #fae8ff, #f3e8ff)', 'padding': '30px', 'borderRadius': '10px', 'borderLeft': '4px solid #8b5cf6', 'marginTop': '20px'}, children=[
-                html.H3('🔍 Interpretación del Simplex', style={'marginBottom': '20px', 'color': colors['text']}),
+                html.H3('🔎 Interpretación del Simplex', style={'marginBottom': '20px', 'color': colors['text']}),
                 html.Div(style={'display': 'grid', 'gridTemplateColumns': 'repeat(auto-fit, minmax(250px, 1fr))', 'gap': '15px'}, children=[
                     html.Div(style={'backgroundColor': 'white', 'padding': '20px', 'borderRadius': '10px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}, children=[
                         html.H4('🔄 Proceso Iterativo', style={'color': '#8b5cf6', 'marginBottom': '10px', 'fontSize': '16px'}),
